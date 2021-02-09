@@ -1,0 +1,196 @@
+body {
+  font-family: "Montserrat-black", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "montserrat";
+}
+
+p {
+  font-family: "Montserrat";
+  color: #8f8f8f;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+/* Heading */
+
+.big_heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.4rem;
+  font-weight: bold;
+
+  line-height: 1.5;
+}
+
+.section_heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* section */
+
+.color_section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white_section {
+  background-color: #fff;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+#navbarSupportedContent {
+  padding-left: 470px;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+  font-weight: 700;
+}
+
+.title-image {
+  right: 20%;
+  width: 23%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Feauters */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-item {
+  padding: 5%;
+}
+
+.feature_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price_text {
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+.fab {
+  margin: auto;
+  padding: 10px;
+}
+
+/* Footer */
+
+#footer {
+  font-family: "Montserrat";
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #8f8f8f;
+  padding: 3% 14%;
+}
+
+.icons {
+  padding: 0% 2%;
+}
+
+.so_icon {
+  font-size: 1rem;
+  color: black;
+  padding: 2% 7%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
